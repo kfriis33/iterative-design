@@ -1,1 +1,24 @@
-/* Put your style information here! */
+body {
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+ }
+
+ .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  @media (max-width: 900px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+}
