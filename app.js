@@ -7,7 +7,7 @@ function plusDivs1(n) {
 
 function showDivs1(n) {
   var i;
-  var x = document.getElementsByClassName("sketch-dashboard");
+  var x = document.getElementsByClassName("sketch-1");
   if (n > x.length) {slideIndex1 = 1}
   if (n < 1) {slideIndex1 = x.length} ;
   for (i = 0; i < x.length; i++) {
@@ -27,7 +27,7 @@ function plusDivs2(n) {
 
 function showDivs2(n) {
   var i;
-  var x = document.getElementsByClassName("sketch-chain");
+  var x = document.getElementsByClassName("sketch-2");
   if (n > x.length) {slideIndex2 = 1}
   if (n < 1) {slideIndex2 = x.length} ;
   for (i = 0; i < x.length; i++) {
@@ -47,7 +47,7 @@ function plusDivs3(n) {
 
 function showDivs3(n) {
   var i;
-  var x = document.getElementsByClassName("sketch-add");
+  var x = document.getElementsByClassName("sketch-3");
   if (n > x.length) {slideIndex3 = 1}
   if (n < 1) {slideIndex3 = x.length} ;
   for (i = 0; i < x.length; i++) {
@@ -67,7 +67,7 @@ function plusDivs4(n) {
 
 function showDivs4(n) {
   var i;
-  var x = document.getElementsByClassName("sketch-account");
+  var x = document.getElementsByClassName("sketch-4");
   if (n > x.length) {slideIndex4 = 1}
   if (n < 1) {slideIndex4 = x.length} ;
   for (i = 0; i < x.length; i++) {
