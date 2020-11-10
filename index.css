@@ -5,7 +5,7 @@ body {
     color: #555B6E; 
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
-    text-shadow: 0 1px 1px #fff;
+
 }
 
 h1 {
@@ -40,15 +40,25 @@ h3 {
 }
 
 h4 {
-    text-align: center;
+    /*text-align: center;*/
     font-style: italic;
-    font-weight: normal;
+    font-weight: medium;
     padding-top: 15px;
 }
 
+h5 {
+    font-family: "Raleway";
+    /*color: #525151;*/
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 1px #fff; }
+
 p {
     color: #67696b;
-    text-shadow: 0 1px 1px #fff;
+    text-shadow: none;
 }
 
 a {
@@ -67,4 +77,50 @@ a {
         flex-wrap: wrap;
     }
 
+}
+
+
+
+
+/* Info blocks */
+.blocks {
+  /*margin: 50px 10% 50px 10%;*/
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: start;
+}
+
+.card {
+    border-radius: 30px;
+    height: auto;
+/*    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;*/
+    padding: 12px 30px 12px 30px  ;
+    background-color: #dddee2;
+    text-align: left;
+}
+
+
+.block1 {
+  grid-column: 1;
+  grid-row: 1;
+
+}
+.block2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.block3 {
+  grid-column: 1;
+  grid-row: 2;
+
+}
+.block4 {
+  grid-column: 2;
+  grid-row: 2;
 }
