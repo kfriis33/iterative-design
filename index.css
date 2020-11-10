@@ -66,6 +66,30 @@ a {
     font-weight: bold;
 }
 
+.sketch-container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.slideshow img {
+  width: 350px;
+  height: auto;
+}
+
+.slideshow {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 /* Info blocks */
